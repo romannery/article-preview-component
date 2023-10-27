@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Frontend Mentor | Article preview component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="image-cntr">
+    <img class="drawers-img" alt="drawers" src="images/drawers.jpg">
+  </div>
+
+  <div class="content-cntr">
+    <h1>
+    Shift the overall look and feel by adding these wonderful 
+    touches to furniture in your home
+    </h1>
+    <p class="description">
+    Ever been in a room and felt like something was missing? Perhaps 
+    it felt slightly bare and uninviting. I’ve got some simple tips 
+    to help you make any room feel complete.
+    </p>
+
+    <div class="post-info">
+      <div class="author-info">
+        <img class="avatar" alt="avatar" src="images/avatar-michelle.jpg">
+        <span class="author-info_name-date">
+          <span>
+          Michelle Appleton
+          </span>
+          28 Jun 2020
+        </span>
+      </div>
+
+      <div class="share-box" id="share-box">
+        <span class="share-box_text">SHARE</span>
+        <div class="icons" >
+          <img class="icons_img" src="images/icon-facebook.svg" alt="facebook">
+          <img class="icons_img" src="images/icon-twitter.svg" alt="twitter">
+          <img class="icons_img" src="images/icon-pinterest.svg" alt="pinterest">
+        </div>
+        <img src="share-ctnr.svg" alt="">
+      </div>
+
+      <div class="share-box-mobile" id="share-box-mobile">
+        <span class="share-box_text">SHARE</span>
+        <div class="icons" >
+          <img class="icons_img" src="images/icon-facebook.svg" alt="facebook">
+          <img class="icons_img" src="images/icon-twitter.svg" alt="twitter">
+          <img class="icons_img" src="images/icon-pinterest.svg" alt="pinterest">
+        </div>
+      </div>
+
+      <button type="button" id="share-btn">
+        <i class="fa-sharp fa-solid fa-share"></i>
+      </button>
+    </div>
+  </div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
